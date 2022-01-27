@@ -1,45 +1,45 @@
 {
-    "name": "apollo-server-mongodb-starter-kit",
-    "version": "1.0.1",
-    "description": "Template for a basic server with apollo-express and mongodb",
-    "main": "src/index.js",
-    "bin": "./bin/cli.js",
-    "scripts": {
-        "build": "babel src --out-dir build",
-        "dev": "nodemon --exec babel-node src/index.js",
-        "start": "node build/index.js",
-        "lint": "eslint --fix src/index.js",
-        "format": "prettier -w ."
-    },
-    "keywords": [],
-    "author": "Oscar Calle",
-    "license": "MIT",
-    "dependencies": {
-        "apollo-server-core": "^3.3.0",
-        "apollo-server-express": "^3.3.0",
-        "cors": "^2.8.5",
-        "dotenv": "^10.0.0",
-        "express": "^4.17.1",
-        "graphql": "^15.6.1",
-        "graphql-import-node": "0.0.4",
-        "graphql-tools": "^4.0.8",
-        "mongoose": "^6.0.10"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.15.7",
-        "@babel/core": "^7.15.8",
-        "@babel/node": "^7.15.8",
-        "@babel/preset-env": "^7.15.8",
-        "eslint": "^7.32.0",
-        "eslint-config-airbnb-base": "^14.2.1",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-import": "^2.24.2",
-        "eslint-plugin-prettier": "^4.0.0",
-        "nodemon": "^2.0.13",
-        "prettier": "^2.4.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GuasaPlay/apollo-server-mongodb-starter-kit"
-    }
+  "name": "apollo-server-mongodb-starter-kit",
+  "version": "1.0.1",
+  "description": "Template for a basic server with apollo-express and mongodb",
+  "main": "src/index.js",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "start": "node build/index.js",
+    "lint": "eslint --fix src/index.js",
+    "format": "prettier -w ."
+  },
+  "keywords": [],
+  "author": "Oscar Calle",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.6.1",
+    "graphql-import-node": "0.0.4",
+    "graphql-tools": "^5.0.0",
+    "mongoose": "^6.0.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuasaPlay/apollo-server-mongodb-starter-kit"
+  }
 }
