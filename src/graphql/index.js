@@ -1,10 +1,10 @@
+import { stitchSchemas } from '@graphql-tools/stitch';
 import 'graphql-import-node'
-import { mergeSchemas } from 'graphql-tools'
 
 import pruebaSchema from './schemas/prueba_schema'
 import pruebaResolvers from './resolvers/prueba_resolvers'
 
-export default mergeSchemas({
+export default stitchSchemas({
     schemas: [pruebaSchema],
     resolvers: [pruebaResolvers],
 })

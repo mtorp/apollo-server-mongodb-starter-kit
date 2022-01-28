@@ -22,8 +22,9 @@
     "express": "^4.17.1",
     "graphql": "^15.6.1",
     "graphql-import-node": "0.0.4",
-    "graphql-tools": "^5.0.0",
-    "mongoose": "^6.0.10"
+    "graphql-tools": "^6.0.0",
+    "mongoose": "^6.0.10",
+    "@graphql-tools/stitch": "^6.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
